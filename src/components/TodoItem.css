@@ -1,0 +1,24 @@
+li {
+  padding: 0.3rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.deleteButton{
+  color: #fff;
+  background-color: red;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  border-radius: 50%;
+}
+
+.completedItem{
+  text-decoration: line-through;
+}
+
